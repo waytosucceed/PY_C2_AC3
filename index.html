@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Detective -3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffde57;
+            text-align: center;
+            color: #333;
+        }
+
+        .header {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 10px 30px;
+            background-color: white;
+            text-align: left;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 50px;
+            margin-right: 10px;
+        }
+
+        .header-image {
+            width: 30%;
+            height: auto;
+        }
+
+        .container {
+            margin: 1rem 1.5rem;
+            padding: 1rem 2.5rem;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        h1 {
+            color: #007bff;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: 'Merriweather', serif;
+            /* color: #333; */
+
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #ff5733;
+            margin-bottom: 10px;
+        }
+
+        ol {
+            font-size: 1.4em;
+            line-height: 1.8;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        .highlight {
+            background: #eee;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .footer {
+            background: #007bff;
+            color: #fff;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 4px 10px;
+            background-color: #28a745;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img src="./logo/Logo.png" alt="Logo" class="logo" />
+        <img src="./logo/header.png" alt="Header" class="header-image" />
+    </header>
+    <div class="container mt-2" style="background-color: transparent;">
+        <p class="text-center">Click on each button to read the instructions.</p>
+
+        <div class="row">
+
+            <div class="col-md-4 mb-3">
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#installingpython">
+                    Downlaod And Install <br>Python
+                </button>
+            </div>
+            <div class="col-md-4 mb-3">
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#installingvscode">
+                    Downlaod And Install <br> Visual Studio COde
+                </button>
+            </div>
+            <div class="col-md-4 mb-3">
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#installinglibraries">
+                    Instaling <br> Libraries
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <h1>🕵️ Code Detective 🕵️</h1>
+        <h2>Instructions</h2>
+        <ol>
+            <li>Go to the GitHub repository 👉
+                <a href="https://github.com/WayToSucceed-Coding/ArithmeticOperationsGUI-Student-Activity.git"
+                    target="_blank" class="button">Click Here to Open</a>
+            </li>
+            <li>Click the green "Code" button located near the top right corner of the repository.</li>
+            <li>In the dropdown menu that appears, click on "Download ZIP." This will download the entire repository as
+                a ZIP file to your computer.</li>
+            <li>Once downloaded, locate the ZIP file in your Downloads folder (or the folder where your downloads are
+                saved).</li>
+            <li>Right-click the ZIP file and select "Extract All…".</li>
+            <li>You can now open the extracted code in your code editor (VS Code).</li>
+            <li>Happy Debugging!🐞</li>
+        </ol>
+    </div>
+    <div class="container">
+        <h1>🖥️ Python Arithmetic Operations Project 🖥️</h1>
+      
+
+        <div>
+            <p>🎉 Ready to get hands-on with some Python code? Let’s dive in and start working on a simple arithmetic
+                operations project!</p>
+                <div style="display: flex; justify-content: center; align-items: center;">
+          <img src="./images/gif.gif" alt="" width="26%">
+          <div>
+            <h3>📝 Time to Run the Code!</h3>
+            <p><strong>Click on ▶️ play button and run the code.</p>
+
+            <p>Once the code is running, you should see two input fields where you can enter numbers. After entering
+                them, you’ll be able to perform arithmetic operations like addition, subtraction, multiplication, and
+                division. 🧮</p>
+
+          </div>
+        </div>
+            <h3>❓ Wait... Nothing is Happening?</h3>
+            <p>Uh oh! Right now, when you click the buttons for those operations, nothing happens. 🤔 Can you figure out
+                why?</p>
+
+            <h3>🛠️ Let's Fix It!</h3>
+            <p>👉 <strong>Do this:</strong> Take a look at the code.
+                <br>
+                <img src="./images/image21.png" alt="" style="width: 40%; padding-right: 2rem;">
+                <img src="./images/image24.png" alt="" style="width: 40%;">
+                <img src="./images/image26.png" alt="" style="width: 40%;padding-right: 2rem;">
+                <img src="./images/image28.png" alt="" style="width: 40%;"> <br>
+                There are separate sections for each arithmetic operation—addition, subtraction, division, and
+                multiplication.
+            </p>
+
+            <p><strong>Hint:</strong> Your job is to make sure that each operation works by storing the result of the
+                calculation in a variable called <code>result</code>. This will allow the correct output to show up
+                after you click a button. 🎯</p>
+
+            <!-- <p>(The teacher will also show you the functions created for addition, subtraction, division, and multiplication. 🧑‍🏫)</p> -->
+        </div>
+    </div>
+
+   
+
+
+
+    <div class="modal fade" id="installingpython" tabindex="-1" aria-labelledby="installingpythonLabel"
+        aria-hidden="true">
+        <div class="modal-dialog custom-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="installingpythonLabel">Download and Install Python</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-container">
+                        <div class="text-content" style="font-size: 1.2rem;text-align: left;">
+                            <p style="color: rgb(160, 5, 5); font-size: 1.4rem;"><strong><u>For Mac Users:</u></strong>
+                            </p>
+                            <ol>
+                                <li>Visit <a href="https://www.python.org/downloads/"
+                                            target="_blank">https://www.python.org/downloads/</a> and select
+                                        <strong>macOS</strong>.</li>
+                                <img class="modal-img" src="./images/sc15.png" alt="sc"
+                                    style="width: 100%; max-width: 600px;"> <br>
+
+                                <li>Select the <strong>latest Python Release</strong>.</li>
+                                <img class="modal-img" src="./images/sc16.png" alt="sc"
+                                    style="width: 100%; max-width: 600px;"> <br>
+
+                                <li>Scroll downwards and select <strong>macOS installer</strong>.</li>
+                                <img class="modal-img" src="./images/sc17.png" alt="sc"
+                                    style="width: 100%; max-width: 900px;"> <br>
+                                Once downloaded, you can install it.
+                            </ol>
+                            <br><br>
+                            <p style="color: rgb(160, 5, 5); font-size: 1.4rem;"><strong><u>For Windows
+                                        Users:</u></strong></p>
+                            <ol>
+                                <li>Visit <a href="https://www.python.org/downloads/"
+                                            target="_blank">https://www.python.org/downloads/</a> and click on
+                                        <strong>Download Python</strong>.</li>
+                                <img class="modal-img" src="./images/sc18.png" alt="sc"
+                                    style="width: 100%; max-width: 600px;"> <br>
+
+                                <li>Run the <strong>.exe file</strong> once downloaded. Make sure you select <strong>Add
+                                        Python to Path</strong>.</li>
+                                <img class="modal-img" src="./images/sc19.png" alt="sc"
+                                    style="width: 100%; max-width: 600px;"> <br>
+
+                                <li>Click on <strong>Install</strong>.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="installingvscode" tabindex="-1" aria-labelledby="installingvscodeLabel"
+        aria-hidden="true">
+        <div class="modal-dialog custom-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="installingvscodeLabel">Download and Install Visual Studio Code</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-container">
+                        <div class="text-content" style="font-size: 1.2rem;text-align: left;">
+                            <p><strong>To download and install Visual Studio Code:</strong></p>
+                            <ol>
+                                <li>Visit <a href="https://code.visualstudio.com/download"
+                                            target="_blank">https://code.visualstudio.com/download</a>.</strong></li>
+                                <li><strong>Choose the installer based on your laptop’s operating system.</strong></li>
+                                <img class="modal-img" src="./images/sc20.png" alt="sc"
+                                    style="width: 100%; max-width: 800px;"> <br>
+
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="modal fade" id="installinglibraries" tabindex="-1" aria-labelledby="installinglibrariesLabel" aria-hidden="true">
+        <div class="modal-dialog custom-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="installinglibrariesLabel">Installing Libraries</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-container">
+                        <div class="text-content" style="font-size: 1.2rem; text-align: left;">
+                            <h3>🔧 Step-by-Step Guide:</h3>
+                            <p><strong>Step 1:</strong> When you open the code in Visual Studio Code, you might see a prompt asking
+                                you to install the Python extension. 🐍</p>
+                            <p>👉 <strong>Do this:</strong> Click on the prompt and follow the instructions to install the Python
+                                extension. Don’t worry—it’s super simple!</p>
+                            <p><strong>Step 2:</strong> To run the code, just click the ▶️ <strong>play button</strong> at the top
+                                right corner of the Visual Studio Code window.</p>
+                            <p><strong>Step 3:</strong> If you get an error saying <span style="color: red;">"tkinter" is not
+                                    installed</span>, don’t worry! It’s easy to fix:</p>
+                            <p>👉 <strong>Do this:</strong> In the terminal (bottom of the window), type:</p>
+                            <code style="font-size: 1.2rem;">pip install tkinter</code>
+                            <p>or</p>
+                            <code style="font-size: 1.2rem;">pip3 install tkinter</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
